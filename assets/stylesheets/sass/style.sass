@@ -1,0 +1,70 @@
+/*
+ *
+ * COMPASS IMPORTS
+ *
+ */
+ 
+//@import "compass/reset"	skeleton has its own reset
+@import "compass/css3"
+@import "compass/utilities"
+
+
+/*
+ *
+ * GLOBAL VARIABLES OH YES 
+ *
+ */
+ 
+$font-family: "Helvetica", "Arial" sans-serif
+$font-size: 13px
+$gutter: 20px
+
+
+/*
+ *
+ * IMAGES STUFF
+ *
+ */
+ 
+$image-dir: '../../images/'
+$placeholder-url: 'http://placehold.it/'
+
+
+// usage:
+// +background('your-image-here.jpg')
+@mixin background($image)
+  background:
+    image: url(#{$image-dir}#{$image})
+
+// usage:
+// +placeholder('300x300')
+@mixin placeholder($image)
+  background:
+    image: url(#{$placeholder-url}#{$image})
+
+
+/*
+ *
+ * COLOURS
+ *
+ */
+
+$white: #fff
+$black: #000
+$grey: #ccc
+
+
+/*
+ *
+ * HANDY
+ *
+ */
+
+=red
+  border: 1px solid red !important
+
+=redbg
+  background: red !important
+
+=centre
+  margin: 0 auto
