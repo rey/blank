@@ -4,6 +4,10 @@ I always bemone the fact that I dont have a blank template that I can clone when
 
 I imagine this to grow as I learn + have time.
 
+## Usage
+
+1. `git clone git@github.com:rey/blank.git a-project`
+
 ## Bits
 
 * A `.tm_properties` file to set my TextMate preferences
