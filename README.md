@@ -6,7 +6,7 @@ I imagine this to grow as I learn + have time.
 
 ## Usage
 
-1. `git clone git@github.com:rey/blank.git a-project`
+`git clone git@github.com:rey/blank.git a-project`
 
 ## Bits
 
