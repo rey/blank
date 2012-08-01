@@ -1,6 +1,8 @@
+require "compass-respond"
+
 http_path = "/"
-css_dir = "stylesheets/css/"
-sass_dir = "stylesheets/sass/"
+css_dir = "assets/stylesheets/css/"
+sass_dir = "assets/stylesheets/sass/"
 
 output_style = :expanded
 
