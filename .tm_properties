@@ -1,3 +1,5 @@
+fontName = "Monaco" 
+fontSize = 12
 softTabs = true
 tabSize = 2
 showInvisibles = true
