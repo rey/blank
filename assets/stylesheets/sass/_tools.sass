@@ -11,6 +11,7 @@
 =centre
   margin: 0 auto
 
+//responsive debugger label thingy
 body:before
   +die
   position: absolute
@@ -29,19 +30,13 @@ body:before
     content: "Desktop"
 
 
-/*
- *
- * MIXINS
- *
- */
+/* MIXINS */
 
-// usage:
 // +background('your-image-here.jpg')
 @mixin background($image)
   background:
     image: url(#{$image-dir}#{$image})
 
-// usage:
 // +placeholder('300x300')
 @mixin placeholder($image)
   background:
