@@ -1,21 +1,12 @@
+/* COLOURS */
+/* MISC */
+body {
+  font-family: "Open Sans", "Helvetica", "Arial" sans-serif;
+  font-size: 13px;
+}
+
 /*
- * COMPASS IMPORTS
- *
- */
-/*
- * GLOBAL VARIABLES OH YES 
- *
- */
-/*
- * MIXINS
- *
- */
-/*
- * COLOURS
- *
- */
-/*
- * HANDY
+ * TOOLS
  *
  */
 body:before {
@@ -50,9 +41,6 @@ body:before {
 }
 
 /*
- * GLOBAL
+ * MIXINS
  *
  */
-body {
-  font-family: "Open Sans", "Helvetica", "Arial" sans-serif;
-}
