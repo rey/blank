@@ -12,10 +12,20 @@ I imagine this to grow as I learn + have time.
 
 * A `.tm_properties` file to set my TextMate preferences
 * Uses [Skeleton](https://github.com/dhgamache/Skeleton), a Beautiful Boilerplate for Responsive, Mobile-Friendly Development
-* Compass + a config file thats useful to me
+* Compass
 * Bunch of other gems (including [Jekyll](https://github.com/mojombo/jekyll))
-* A SASS file with a bunch of helper stuff which I find useful
-* A bog standard HTML file
+
+## Structure
+
+* `assets/fonts/`
+* `assets/images/`
+* `assets/stylesheets/sass/`
+* `assets/stylesheets/sass/partials/`
+* `assets/stylesheets/css/`
+* `assets/stylesheets/css/skeleton/`
+
+`assets/images/
+
 
 ## To do
 
