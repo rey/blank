@@ -10,7 +10,7 @@ I imagine this to grow as I learn + have time.
 2. `cd path/to/a-project`
 3. `compass watch`
 
-## `assets` folder
+## The good stuff lives in the `assets` folder
 
 * `assets/stylesheets/sass/`
 * `assets/stylesheets/sass/partials/`
