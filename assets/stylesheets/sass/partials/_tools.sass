@@ -28,16 +28,3 @@ body:before
     content: "Tablet"
   +respond-to(desktops)
     content: "Desktop"
-
-
-/* MIXINS */
-
-// +background('your-image-here.jpg')
-@mixin background($image)
-  background:
-    image: url(#{$image-dir}#{$image})
-
-// +placeholder('300x300')
-@mixin placeholder($image)
-  background:
-    image: url(#{$placeholder-url}#{$image})
