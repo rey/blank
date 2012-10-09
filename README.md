@@ -8,7 +8,8 @@ I imagine this to grow as I learn + have time.
 
 1. `git clone git@github.com:rey/blank.git a-project`
 2. `cd path/to/a-project`
-3. `compass watch`
+3. `bundle install`
+4. `compass watch`
 
 ## The good stuff lives in the `assets` folder
 
